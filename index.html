@@ -1,41 +1,20 @@
 <!DOCTYPE html>
-<html long="ja">
+ <html long="ja"> 
 <head>
-	<meta charset="UTF-8">
-	<title>2Fフランクフルト</title>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>2Fフランクフルト</title>
+</head> 
 <body>
-	以下の番号までの人は商品をとりにきてください。
-  		<p id="counter">0</p>
-  		<button type="button" 
-  		id="increment">+1</button>	
-	<script>
-		(() => {
-  //HTMLのid値を使って以下のDOM要素を取得
-  const downbutton = document.getElementById('down');
-  const upbutton = document.getElementById('up');
-  const text = document.getElementById('textbox');
-  const reset = document.getElementById('reset');
-
-  //ボタンが押されたらカウント減
-  downbutton.addEventListener('click', (event) => {
-  //0以下にはならないようにする
-  if(text.value >= 1) {
-    text.value--;
-  }
-  });
-
-  //ボタンが押されたらカウント増
-  upbutton.addEventListener('click', (event) => {
-    text.value++;
-  })
-
-  //ボタンが押されたら0に戻る
-  reset.addEventListener('click', (event) => {
-    text.value = 0;
-  })
-
-})();
-</script>
+    <h1>Frank the 2F</h1>
+    <p>商品が出来上がりました</P>
+     <p>以下の番号までの人は商品をとりにきてください。</p>
+<iframe  class= "frame_center" src="https://zawazawa.jp/lotw81ivw598yfc0/topic/1"width="800" height="200"> </iframe>
+ 
+<style>
+   body{ background-color: #cccccc;}
+     </style>
 </body>
+
 </html>
